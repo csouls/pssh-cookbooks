@@ -5,8 +5,9 @@
 # Copyright 2014, Akatsuki Inc.
 #
 
-source_uri  = "http://parallel-ssh.googlecode.com/files/pssh-#{node['pssh']['version']}.tar.gz"
-tmp_file    = "/tmp/pssh-#{node['pssh']['version']}.tar.gz"
+version     = node['pssh']['version']
+source_uri  = "http://parallel-ssh.googlecode.com/files/pssh-#{version}.tar.gz"
+tmp_file    = "/tmp/pssh-#{version}.tar.gz"
 install_dir = node['pssh']['install_dir']
 
 node['pssh']['packages'].each do |package_name|
