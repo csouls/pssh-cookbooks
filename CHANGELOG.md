@@ -3,6 +3,10 @@ pssh-cookbooks CHANGELOG
 
 This file is used to list changes made in each version of the pssh-cookbooks cookbook.
 
+0.1.1
+-----
+- Yusuke Tanaka - Update readme for opscode site layout
+
 0.1.0
 -----
 - Yusuke Tanaka - Initial release of pssh
