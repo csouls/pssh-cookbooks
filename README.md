@@ -1,6 +1,6 @@
 pssh Cookbook
 =======================
-This cookbook is install the pssh.
+This cookbook is install the [Parallel ssh](https://code.google.com/p/parallel-ssh/).
 
 Requirements
 ------------

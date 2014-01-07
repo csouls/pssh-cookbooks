@@ -5,7 +5,7 @@ This file is used to list changes made in each version of the pssh-cookbooks coo
 
 0.1.0
 -----
-- Yusuke Tanaka - Initial release of pssh-cookbooks
+- Yusuke Tanaka - Initial release of pssh
 
 - - -
 Check the [Markdown Syntax Guide](http://daringfireball.net/projects/markdown/syntax) for help with Markdown.

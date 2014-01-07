@@ -1,5 +1,5 @@
 #
-# Cookbook Name:: pssh-cookbooks
+# Cookbook Name:: pssh
 # Recipe:: default
 #
 # Copyright 2014, Akatsuki Inc.
