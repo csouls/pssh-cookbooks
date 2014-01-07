@@ -8,31 +8,11 @@ Requirements
 
 Attributes
 ----------
-#### pssh::default
-<table>
-  <tr>
-    <th>Key</th>
-    <th>Type</th>
-    <th>Description</th>
-    <th>Default</th>
-  </tr>
-  <tr>
-    <td><tt>['pssh']['version']</tt></td>
-    <td>String</td>
-    <td>Install version</td>
-    <td><tt>2.3.1</tt></td>
-  </tr>
-  <tr>
-    <td><tt>['pssh']['install_dir']</tt></td>
-    <td>String</td>
-    <td>Install directory</td>
-    <td><tt>/usr/local/src</tt></td>
-  </tr>
-</table>
+- `node['pssh']['version']` - Install version
+- `node['pssh']['install_dir']` - Install directory
 
 Usage
 -----
-#### pssh::default
 Just include `pssh` in your node's `run_list`:
 
 ```json
@@ -45,7 +25,6 @@ Just include `pssh` in your node's `run_list`:
 
 Contributing
 ------------
-
 1. Fork the repository on Github
 2. Create a named feature branch (like `add_component_x`)
 3. Write your change
