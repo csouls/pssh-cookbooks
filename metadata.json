@@ -4,7 +4,7 @@
   "long_description": "pssh Cookbook\n=======================\nThis cookbook is install the [Parallel ssh](https://code.google.com/p/parallel-ssh/).\n\nRequirements\n------------\n- `python` pssh needs python to intall.\n\nAttributes\n----------\n- `node['pssh']['version']` - Install version\n- `node['pssh']['install_dir']` - Install directory\n\nUsage\n-----\nJust include `pssh` in your node's `run_list`:\n\n```json\n{\n  \"run_list\": [\n    \"recipe[pssh]\"\n  ]\n}\n```\n\nContributing\n------------\n1. Fork the repository on Github\n2. Create a named feature branch (like `add_component_x`)\n3. Write your change\n4. Write tests for your change (if applicable)\n5. Run the tests, ensuring they all pass\n6. Submit a Pull Request using Github\n\nLicense and Authors\n-------------------\nAuthors: Yusuke Tanaka (Akatsuki Inc.)\n\nThis software is released under the MIT License\n",
   "maintainer": "Akatsuki Inc.",
   "maintainer_email": "csouls@gmail.com",
-  "license": "All rights reserved",
+  "license": "MIT",
   "platforms": {
   },
   "dependencies": {
